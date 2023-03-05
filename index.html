@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Work Hours Tracker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Work Hours Tracker</h1>
+    <div class="clock">
+      <h2>Project 1</h2>
+      <p id="clock-display">00:00:00</p>
+      <button id="clock-in">Clock In</button>
+      <button id="clock-out">Clock Out</button>
+      <button id="pause">Pause</button>
+      <button id="resume">Resume</button>
+    </div>
+    <div class="clock">
+      <h2>Project 2</h2>
+      <p id="clock-display">00:00:00</p>
+      <button id="clock-in">Clock In</button>
+      <button id="clock-out">Clock Out</button>
+      <button id="pause">Pause</button>
+      <button id="resume">Resume</button>
+    </div>
+    <div class="manual-entry">
+      <h2>Manual Entry</h2>
+      <form>
+        <label for="project-name">Project Name:</label>
+        <input type="text" id="project-name" name="project-name"><br><br>
+        <label for="start-time">Start Time:</label>
+        <input type="datetime-local" id="start-time" name="start-time"><br><br>
+        <label for="end-time">End Time:</label>
+        <input type="datetime-local" id="end-time" name="end-time"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
